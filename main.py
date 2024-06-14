@@ -16,7 +16,7 @@ def main():
     ''')
     st.sidebar.write('[GitHub](https://github.com/devlucascfarias)')
 
-    predictor = HousePurchasePredictor('BaseDados_RegressaoLogistica.xlsx')
+    predictor = HousePurchasePredictor('data/BaseDados_RegressaoLogistica.xlsx')
 
     st.title('Logistic Regression :blue[Example]')
 
